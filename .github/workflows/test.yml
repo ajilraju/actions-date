@@ -1,0 +1,11 @@
+name: action-date test
+on:
+  push:
+  pull_request:
+jobs:
+  composer-install:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ajilraju/actions-date@v0.0.1
+        with:
+          args: date +%F
