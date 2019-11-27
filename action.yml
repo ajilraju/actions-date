@@ -1,0 +1,9 @@
+name: 'Date Actions'
+author: 'Ajil Raju <ajilraju01@gmail.com>'
+description: 'Print a Hello World for the actions'
+branding:
+  icon: 'clock'  
+  color: 'orange'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
