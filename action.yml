@@ -1,9 +1,9 @@
 name: 'Date Actions'
 author: 'Ajil Raju <ajilraju01@gmail.com>'
-description: 'Print a Hello World for the actions'
+description: 'Generate date and time for actions build'
 branding:
   icon: 'clock'  
-  color: 'orange'
+  color: 'black'
 runs:
   using: 'docker'
   image: 'Dockerfile'
