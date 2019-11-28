@@ -1,4 +1,4 @@
-![](https://github.com/ajilraju/actions-date/workflows/action-date%20test/badge.svg) ![](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2F_ajilraju)
+![](https://github.com/ajilraju/actions-date/workflows/action-date%20test/badge.svg) 
 # GitHub Action for Date
 
 An Action to run [date](https://www.gnu.org/software/coreutils/manual/html_node/Examples-of-date.html) commands.
