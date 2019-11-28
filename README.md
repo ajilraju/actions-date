@@ -11,6 +11,14 @@ Exposing the date and time according the options.
 - uses: ajilraju/action-date@v0.0.1
   with:
     args: date +%F
+    
+- uses: ajilraju/action-date@v0.0.1
+  with:
+    date --date='2 days ago'
+
+- uses: ajilraju/action-date@v0.0.1
+  with:
+    date -d 1may '+%B %-d'
 ```
 ## Examples of date
 
