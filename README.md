@@ -11,6 +11,7 @@ Exposing the date and time according the options.
   with:
     args: date +%F
 ```
+## Examples of date
 
 ### Here are a few examples. Also see the documentation for the -d option in the previous section.
 
