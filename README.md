@@ -1,4 +1,4 @@
-# Timestamp Actions
+#GitHub actions for unix date
 
 This GitHub action exposes the date command for use in the building.
 
