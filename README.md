@@ -62,4 +62,4 @@ date --set='+2 minutes'
 ```
 
 ### Reference
-- [date commd](https://www.gnu.org/software/coreutils/manual/html_node/Examples-of-date.html)
+- [date command](https://www.gnu.org/software/coreutils/manual/html_node/Examples-of-date.html)
