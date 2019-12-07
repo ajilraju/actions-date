@@ -63,3 +63,5 @@ date --set='+2 minutes'
 
 ### Reference
 - [date command](https://www.gnu.org/software/coreutils/manual/html_node/Examples-of-date.html)
+
+### Thank you, and give me feedbacks
