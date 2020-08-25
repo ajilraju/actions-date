@@ -9,3 +9,6 @@ jobs:
       - uses: ajilraju/actions-date@v0.0.2
         with:
           args: date +%F
+      - name: echo date test
+        run: |
+          echo today's date: $(date +%d-%m-%Y)
