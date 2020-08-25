@@ -10,5 +10,7 @@ jobs:
         with:
           args: date +%F
       - name: echo date test
+        env:
+          JOB_START: $${{ date "+%Y-%m-%d-%H:%M" }}
         run: |
           echo "today's date: $(date +%d-%m-%Y)"
