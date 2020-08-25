@@ -11,4 +11,4 @@ jobs:
           args: date +%F
       - name: echo date test
         run: |
-          echo today's date: $(date +%d-%m-%Y)
+          echo "today's date: $(date +%d-%m-%Y)"
