@@ -9,8 +9,6 @@ jobs:
       - uses: ajilraju/actions-date@v0.0.2
         with:
           args: date +%F
-      - name: echo date test
-        env:
-          JOB_START: $${{ date "+%Y-%m-%d-%H:%M" }}
+      - name: formatted test echo test
         run: |
           echo "today's date: $(date +%d-%m-%Y)"
