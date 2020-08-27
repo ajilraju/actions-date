@@ -6,9 +6,9 @@ jobs:
   composer-install:
     runs-on: ubuntu-latest
     steps:
-      - uses: ajilraju/actions-date@v0.0.2
+      - uses: ajilraju/actions-date@master #release v0.1
         with:
           args: date +%F
-      - name: formatted test echo test
+      - name: Test date from busybox
         run: |
           echo "today's date: $(date +%d-%m-%Y)"
