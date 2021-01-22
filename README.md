@@ -8,15 +8,15 @@ An Action to run [date](https://www.gnu.org/software/coreutils/manual/html_node/
 Exposing the date and time according the options.
 
 ```yaml
-- uses: ajilraju/action-date@v0.0.1
+- uses: ajilraju/actions-date@v0.1
   with:
     args: date +%F
     
-- uses: ajilraju/action-date@v0.0.1
+- uses: ajilraju/actions-date@v0.1
   with:
     date --date='2 days ago'
 
-- uses: ajilraju/action-date@v0.0.1
+- uses: ajilraju/actions-date@v0.1
   with:
     date -d 1may '+%B %-d'
 ```
