@@ -1,5 +1,5 @@
 ![](https://github.com/ajilraju/actions-date/workflows/action-date%20test/badge.svg) 
-# GitHub Action for Date
+# GitHub Action for dates and timestamps
 
 An Action to run [date](https://www.gnu.org/software/coreutils/manual/html_node/Examples-of-date.html) commands.
 
